@@ -33,3 +33,6 @@
 @mixin margin($space) {
   margin: map.get($spacing, $space);
 }
+
+body {
+}

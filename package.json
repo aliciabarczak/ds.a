@@ -1,0 +1,11 @@
+{
+  "name": "ds.a-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aliciabarczak/ds.a.git",
+  "author": "aliciabarczak <alicia.barczak@uk.globallogic.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^7.1.4"
+  }
+}

@@ -9,4 +9,5 @@ export default {
     preserveModules: true,
   },
   plugins: [Ts()],
+  external: ["react"],
 };

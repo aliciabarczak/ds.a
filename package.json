@@ -13,6 +13,12 @@
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "**normalize-scss"
     ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
   }
 }

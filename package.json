@@ -6,6 +6,7 @@
   "author": "aliciabarczak <alicia.barczak@uk.globallogic.com>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^8.0.3",
     "lerna": "^7.1.4"
   },
   "private": true,

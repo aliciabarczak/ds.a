@@ -7,7 +7,7 @@
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
-    "husky": "4",
+    "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "node-sass": "^9.0.0",
     "prettier": "^3.0.0",
@@ -19,12 +19,11 @@
   "scripts": {
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
-    "prepare": "husky install",
+    "prepare": "cd .. && husky install scss/.husky",
     "build": "node src/scripts/build.js"
   },
   "lint-staged": {
-    "*.scss": "yarn lint:fix",
-    "*.css": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.scss": "yarn lint:fix"
   }
+  
 }

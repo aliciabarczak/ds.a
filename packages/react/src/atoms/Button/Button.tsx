@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 const Button: React.FunctionComponent<ButtonProps> = ({ label }) => {
-  return <button>{label}</button>;
+  return <button className="dsa-button-container">{label}</button>;
 };
 
 export default Button;
